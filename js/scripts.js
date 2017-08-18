@@ -1,21 +1,10 @@
 $(document).ready(function() {
   $('#pingForm').submit(function(event) {
       event.preventDefault();
-      //clearList();
       var userInput = $('#userInput').val();
       ping(userInput);
   });
-  // $('#reset').click(function(event) {
-  //     //event.preventDefault();
-  //     clearList();
-  // });
 });
-
-function clearList() {
-  //$('#resultList ul').text('<li>' '</li>');
-  $('#resultList').empty();
-}
-
 
 function ping(num) {
   for (var i = 1; i <= num; i++) {
