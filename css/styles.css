@@ -1,8 +1,39 @@
 body {
   font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  background-color: #6DA3E4;
+}
+
+.jumbotron {
+  background-color: #65666A;
 }
 
 .jumbotron h1 {
-  font-size: 4vw;
+  color: #6DA3E4;
+  font-size: 5vw;
   margin-left: 200px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+#fizzForm {
+  background-color: #9BA1AF;
+  width: 95%;
+}
+
+#fizzForm input {
+  background-color: #65666A;
+  border-style: none;
+  color: #6DA3E4;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#list {
+  float: right;
+}
+
+#sideBar {
+  background-color: #9BA1AF;
+  height: 100vw;
+  margin-top: -32px;
 }
