@@ -36,6 +36,10 @@ body {
   margin-right: 50px;
 }
 
+#reverse {
+  margin-right: 100px;
+}
+
 #resultList {
   margin-top: 10px;
   margin-left: 40px;
