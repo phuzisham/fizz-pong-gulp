@@ -3,6 +3,7 @@ $(document).ready(function() {
       event.preventDefault();
       var userInput = $('#userInput').val();
       ping(userInput);
+      //$('#resultList ul').empty();
   });
 });
 
@@ -15,7 +16,17 @@ function ping(num) {
     } else if (i % 3 == 0) {
         $('#resultList ul').append('<li>'+'pong'+'</li>');
     } else {
-      $('#resultList ul').append('<li>'+i+'</li>');
+        $('#resultList ul').append('<li>'+i+'</li>');
     }
+  }
+}
+
+
+
+var listArray = [];
+
+function pushArray(arr) {
+  for (var i = 0; i < arr.length: i++) {
+      $('#resultList ul').append('<li>'+arr[i]+'</li>');
   }
 }
