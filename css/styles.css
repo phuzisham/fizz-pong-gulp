@@ -9,15 +9,17 @@ body {
 
 .jumbotron h1 {
   color: #6DA3E4;
-  font-size: 5vw;
+  font-size: 80px;
   margin-left: 200px;
   margin-top: -40px;
   margin-bottom: -40px;
 }
 
 #fizzForm {
+  margin: 0 auto;
+  color: #000;
   background-color: #9BA1AF;
-  width: 95%;
+  width: 90%;
 }
 
 #fizzForm input {
@@ -28,12 +30,28 @@ body {
   padding: 5px;
 }
 
-#list {
+#fizzForm button {
   float: right;
+  margin-top: -50px;
+  margin-right: 50px;
+}
+
+#resultList {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+#resultList ul {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #sideBar {
   background-color: #9BA1AF;
-  height: 100vw;
+  height: 300vw;
   margin-top: -32px;
+}
+
+#about {
+  padding: 20px;
 }
