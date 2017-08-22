@@ -4,6 +4,8 @@
 
 #### By _**David Hale**_
 
+#### GH-Pages _https://phuzisham.github.io/fizz-pong/_
+
 ## Description
 
 _Site takes a number from user and prints a list of numbers from 1 to that number using the following..._
