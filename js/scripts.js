@@ -1,13 +1,13 @@
 $(document).ready(function() {
   $('#fizzForm').submit(function(event) {
-      event.preventDefault();
-      var userInput = $('#userInput').val();
-      fizz(userInput);
+    event.preventDefault();
+    var userInput = $('#userInput').val();
+    fizz(userInput);
   });
   $('#reverse').click(function(event) {
-      event.preventDefault();
-      var userInput = $('#userInput').val();
-      reverseFizz(userInput);
+    event.preventDefault();
+    var userInput = $('#userInput').val();
+    reverseFizz(userInput);
   });
 });
 
@@ -17,11 +17,11 @@ function fizz(num) {
     if (i % 15 == 0) {
       $('#resultList ul').append('<li>'+'fizz-pong'+'</li>');
     } else if (i % 5 == 0) {
-        $('#resultList ul').append('<li>'+'pong'+'</li>');
+      $('#resultList ul').append('<li>'+'pong'+'</li>');
     } else if (i % 3 == 0) {
-        $('#resultList ul').append('<li>'+'fizz'+'</li>');
+      $('#resultList ul').append('<li>'+'fizz'+'</li>');
     } else {
-        $('#resultList ul').append('<li>'+i+'</li>');
+      $('#resultList ul').append('<li>'+i+'</li>');
     }
   }
 }
@@ -32,11 +32,11 @@ function reverseFizz(num) {
     if (i % 15 == 0) {
       $('#resultList ul').append('<li>'+'fizz-pong'+'</li>');
     } else if (i % 5 == 0) {
-        $('#resultList ul').append('<li>'+'pong'+'</li>');
+      $('#resultList ul').append('<li>'+'pong'+'</li>');
     } else if (i % 3 == 0) {
-        $('#resultList ul').append('<li>'+'fizz'+'</li>');
+      $('#resultList ul').append('<li>'+'fizz'+'</li>');
     } else {
-        $('#resultList ul').append('<li>'+i+'</li>');
+      $('#resultList ul').append('<li>'+i+'</li>');
     }
   }
 }

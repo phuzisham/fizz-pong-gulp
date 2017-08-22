@@ -1,4 +1,4 @@
-# _Fizz-Buzz_
+# _Fizz-Pong_
 
 #### _Site creates list of numbers following fizz-buzz parameters., {08/18/2017}_
 
@@ -9,12 +9,18 @@
 _Site takes a number from user and prints a list of numbers from 1 to that number using the following..._
 
 ## Specifications
-
-_If number is divisible by 3 print 'fizz'. If number is divisible by 5 print 'pong'. If number is divisible by 15 print 'fizz-pong'._
-
-_Input: 17_
-
-_Output: 1, 2, fizz, 4, pong, fizz, 7, 8, fizz, pong, 11, fizz, 13, 14, fizz-pong, 16, 17_
+* It displays every number from one up to the user's number
+  * Example input: 2
+  * Example Output: [1,2]
+* It displays a "fizz" for a number divisible by 3
+  * Example input: 3
+  * Example Output: [1,2,"fizz"]
+* It displays a "pong" for a number divisible by 5
+  * Example input: 5
+  * Example Output: [1,2,"fizz",4,"pong"]
+* It displays a "fizz-pong" for a number divisible by 15
+  * Example input: 15
+  * Example Output: [1,2,"fizz",4,"pong",...,"fizz-pong"]
 
 ## Support and contact details
 
