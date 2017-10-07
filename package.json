@@ -1,0 +1,29 @@
+{
+  "name": "fizz-pong",
+  "version": "1.0.0",
+  "description": "#### _Site creates list of numbers following fizz-buzz parameters., {08/18/2017}_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuzisham/fizz-pong.git"
+  },
+  "author": "David Hale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuzisham/fizz-pong/issues"
+  },
+  "homepage": "https://github.com/phuzisham/fizz-pong#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

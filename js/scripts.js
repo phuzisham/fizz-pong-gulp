@@ -1,17 +1,9 @@
-$(document).ready(function() {
-  $('#fizzForm').submit(function(event) {
-    event.preventDefault();
-    var userInput = $('#userInput').val();
-    fizz(userInput);
-  });
-  $('#reverse').click(function(event) {
-    event.preventDefault();
-    var userInput = $('#userInput').val();
-    reverseFizz(userInput);
-  });
-});
+function Calculator(skinName) {
+  this.skin = skinName;
+}
 
-function fizz(num) {
+
+Calculator.prototype.fizz = function(num) {
   $('#resultList ul').empty();
   for (var i = 1; i <= num; i++) {
     if (i % 15 == 0) {
@@ -24,9 +16,9 @@ function fizz(num) {
       $('#resultList ul').append('<li>'+i+'</li>');
     }
   }
-}
+};
 
-function reverseFizz(num) {
+Calculator.prototype.reverseFizz = function(num) {
   $('#resultList ul').empty();
   for (var i = num; i >= 1; i--) {
     if (i % 15 == 0) {
@@ -39,4 +31,6 @@ function reverseFizz(num) {
       $('#resultList ul').append('<li>'+i+'</li>');
     }
   }
-}
+};
+
+exports.calculatorModule = Calculator;
